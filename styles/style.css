@@ -1,0 +1,256 @@
+body {
+    background: #fffefe;
+    margin: 20px;
+    text-decoration: none;
+    font-family: "Open Sans"; font-style: normal;
+    font-variant: normal; font-weight: 300; line-height: 26.4px;
+    height: 100%;
+  }
+
+  h1 {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 30px;
+    line-height: 26.4px;
+    font-weight: 300;
+
+  }
+
+h2{
+    color: #404962;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+}
+
+#topnav{
+    float: right;
+    padding-left: 475px;
+    z-index: 890;
+}
+
+#logo{
+    padding-top: 30px;
+    padding-left: 35px;
+    float: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35pt;
+}
+
+#navbio{
+    font-family: "Open Sans"; 
+    font-style: normal;
+    font-variant: normal; 
+    font-weight: 300; 
+    line-height: 26.4px;
+    font-size: 10.5pt;
+    text-transform: uppercase;
+    padding-left: 2px;
+    letter-spacing: 3px;
+
+}
+
+  h2{
+    font-family: "Open Sans"; font-style: normal;
+    font-variant: normal; font-weight: 300; line-height: 26.4px;
+    padding: 20px;
+  }
+
+  li {
+    display: inline;
+  }
+  ul {
+      margin: right;
+      background-color: white; /* Black */
+      padding-top: 20px;
+
+    }
+
+/* Work Page styling*/
+
+#page{
+    padding: 20px;
+}
+.project{
+    float: left;
+    cursor: pointer;
+}
+
+.thumbs{
+    float: left;
+    padding: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center
+}
+.thumbnails{
+
+    width: 300px;
+    height: 300px;
+    border-radius: 5%;
+}
+
+.container{
+    position: relative;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #ffffff;
+}
+
+.container:hover .overlay{
+    opacity: .95;
+}
+
+.text{
+    color: black;
+    font-size: 12pt;
+    position: absolute;
+    top: 50%;
+    left: 43%;
+    transform: translate(-50%, -50%);
+}
+
+.cusd{
+    color:  #404962;
+}
+
+.thrift{
+    color:  #dfc627;
+}
+.roper{
+    color: #8d0e23;
+}
+
+.role{
+    font-weight: 300; 
+    line-height: 26.4px;
+    font-size: 10pt;
+    text-transform: uppercase;
+    padding-left: 2px;
+    letter-spacing: .5px;
+}
+#thumbbio{
+    font-size: 10pt;
+}
+
+/* Project Pages Styling*/
+
+.page-content{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+.page-title{
+    font-size: 18pt;
+    text-transform: uppercase;
+    line-height: 30pt;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+#description{
+    padding-top: 40px;
+    padding-left: 40px;
+
+}
+.work-image{
+    max-width: 600px;
+    max-height: 600px;
+    padding: 20px;
+    padding-right: 40px;
+}
+
+.context{
+    display: flex;
+    flex-direction: row;
+}
+
+/* UI Page */
+
+#ui-head{
+    padding-left:20px;
+}
+.ui{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.ui-block{
+    padding: 20px;
+    text-align: center;
+}
+.ui-image{
+    
+    max-height: 300px;
+}
+
+
+  /* The navigation menu links */
+  li a {
+      padding: 16px 8px 32px 32px;
+      text-decoration: none;
+      font-size: 18px;
+      font-family: "Open Sans"; font-style: normal;
+      font-variant: normal; font-weight: 300; line-height: 26.4px;
+      text-transform: uppercase;
+      color: black;
+
+
+    }
+
+  /* Changes color when you hover over the navigation menu links */
+  li a:hover {
+      color: #818181;
+
+    }
+
+
+
+  /* footer */
+
+  #footer {
+    bottom: 0;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+/* Home page styling */
+
+
+
+.profilepicture{
+float: left;
+padding: 50px;
+padding-left: 200px;
+height: 25%;
+width: 25%;
+}
+
+#aboutme{
+padding: 30px;
+padding-top: 60px;
+font-size: 16pt;
+line-height: 30pt;
+font-weight: 300; 
+line-height: 26.4px;;
+font-weight: 300; 
+line-height: 26.4px;
+
+letter-spacing: 2px;
+}
